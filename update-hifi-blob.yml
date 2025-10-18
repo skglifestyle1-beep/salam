@@ -2,7 +2,7 @@ name: Update HIFI Blob
 
 on:
   schedule:
-    - cron: '0 */4 * * *'   # every 4 hours
+    - cron: '*/15 * * * *'   # every 15 minutes
   workflow_dispatch:        # manual run button
 
 jobs:
